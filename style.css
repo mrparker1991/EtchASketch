@@ -1,0 +1,70 @@
+/* CSS for Etch a Sketch site */
+
+body {
+  display: block;
+  text-align: center;
+  background-image: url("./Images/desk.jpg");
+}
+
+.head {
+  width: 100%;
+  padding:0;
+  position: relative;
+  top: 90px;
+  height: 40px;
+}
+
+.head img {
+  height: 80px;
+}
+
+#draw {
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+  width: 700px;
+  border: 80px solid red;
+  box-shadow: 8px 8px 0 4px rgb(200,60,60);
+  border-radius: 8px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+#draw div {
+  text-align: center;
+}
+
+.etch {
+  box-sizing: border-box;
+//  border: .5px solid black;
+}
+
+#buttons {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: 78px;
+  padding: 0 35px;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+#buttons button {
+  height: 65px;
+  width: 65px;
+  background: white;
+  border-radius: 50%;
+  border: 1px solid rgb(200,200,200);
+  margin: 2px;
+  box-shadow: 3px 3px 2px 2px rgb(200,200,200);
+}
+
+#buttons button:focus {
+  outline: none;
+}
+
+#buttons button:hover {
+  border-color: black;
+  box-shadow: 3px 3px 2px 2px black;
+}
